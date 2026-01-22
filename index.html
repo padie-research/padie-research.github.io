@@ -5,70 +5,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>IECIT — Institute for Emergent Cosmology & Innovative Technologies</title>
   <meta name="description" content="IECIT is a research institute in formation based in the Philippines, focused on emergent cosmology, quantum gravity, and enabling technologies for future space observations." />
+  <meta name="robots" content="index,follow" />
   <style>
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:#0b0e14;color:#e6e9ef}
-    header,section,footer{max-width:960px;margin:auto;padding:40px 24px}
-    h1{font-size:42px;margin-bottom:10px}
-    h2{margin-top:40px}
-    p,li{color:#9aa4b2;font-size:18px;line-height:1.6}
-    a{color:#7aa2f7;text-decoration:none}
-    .badge{border:1px solid #2a3350;border-radius:20px;padding:6px 14px;font-size:13px;color:#9aa4b2}
-    .card{background:#121735;border:1px solid #222a55;border-radius:16px;padding:24px;margin-top:20px}
+    :root{--bg:#0b0e14;--fg:#e6e9ef;--muted:#9aa4b2;--accent:#7aa2f7;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0b0e14,#0f1422);color:var(--fg)}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{padding:64px 24px;max-width:980px;margin:auto}
+    .badge{display:inline-block;border:1px solid #2a3350;border-radius:999px;padding:6px 12px;color:var(--muted);font-size:12px}
+    h1{font-size:44px;line-height:1.1;margin:16px 0}
+    p{color:var(--muted);max-width:760px;font-size:18px}
+    section{padding:40px 24px;max-width:980px;margin:auto}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+    .card{background:#121735;border:1px solid #222a55;border-radius:16px;padding:24px}
+    .card h3{margin-top:0}
+    footer{padding:32px 24px;border-top:1px solid #1f2550;color:var(--muted)}
+    .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#c3dafe}
   </style>
 </head>
 <body>
-
-<header>
-  <span class="badge">Institute in formation · Philippines</span>
-  <h1>Institute for Emergent Cosmology & Innovative Technologies (IECIT)</h1>
-  <p>
-    IECIT is a research initiative currently being established in the Philippines,
-    dedicated to fundamental cosmology and enabling technologies for future space-based observations.
-  </p>
-</header>
-
-<section>
-  <div class="card">
-    <h2>Research Focus</h2>
-    <ul>
-      <li>Quantum gravity and early-Universe cosmology</li>
-      <li>Emergent spacetime and non-fundamental time</li>
-      <li>Primordial gravitational waves</li>
-      <li>Falsifiable predictions in the LISA era</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>Flagship Framework</h2>
+  <header>
+    <span class="badge">Institute in formation · Philippines</span>
+    <h1>Institute for Emergent Cosmology & Innovative Technologies (IECIT)</h1>
     <p>
-      <strong>QBET — Quantum Bounce with Emergent Time</strong> explores a non-singular
-      quantum transition in the early Universe, predicting a distinctive stochastic
-      gravitational-wave background in the millihertz frequency band.
+      IECIT is a research initiative currently being established in the Philippines.
+      Its mission is to bridge <strong>fundamental cosmology</strong> and <strong>enabling technologies</strong>
+      for the observation and analysis of the early Universe.
+    </p>
+  </header>
+
+  <section>
+  <div class="card">
+    <h2>Cosmology</h2>
+    <p>
+      IECIT focuses on fundamental questions in early-Universe cosmology and quantum gravity,
+      with particular emphasis on scenarios where spacetime and time itself are emergent.
+      Current work includes non-singular quantum cosmologies, primordial gravitational waves,
+      and falsifiable predictions for next-generation observatories.
     </p>
   </div>
 
   <div class="card">
-    <h2>Leadership</h2>
+    <h2>Technology</h2>
     <p>
-      <strong>Founder:</strong> Thierry Padie — Independent Researcher (Quantum Gravity / Cosmology)<br>
-      ORCID: 0009-0007-5232-9923
+      Beyond theory, the institute explores enabling technologies required to analyze future
+      space-based signals. This includes data analysis methods for gravitational-wave astronomy,
+      conceptual detector architectures, and cross-fertilization with advanced computation
+      and signal-processing technologies.
     </p>
+  </div>
+
+  <div class="card">
+    <h2>Research Support</h2>
     <p>
-      <strong>Director:</strong> FE COLE<br>
-      Institute for Emergent Cosmology & Innovative Technologies (in formation)
+      IECIT is conceived as a lightweight research structure supporting independent and early-career
+      researchers. Activities include open dissemination of preprints, methodological notes,
+      collaborative tools, and guidance for connecting theoretical predictions with observational
+      programs.
     </p>
+  </div>
+
+  <div class="card">
+    <h2>Philippines Program</h2>
     <p>
-      Contact: <a href="mailto:contact@contact-padie-research.org">contact@contact-padie-research.org</a>
+      The institute is being established in the Philippines with the objective of contributing
+      to the emergence of a regional hub for fundamental cosmology and advanced scientific
+      technologies. The program aims to foster international collaboration while developing
+      local research capacity in Southeast Asia.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Support & Donations</h2>
+    <p>
+      IECIT operates as a non-profit-oriented research initiative. Financial support and donations
+      are used exclusively to sustain research activities, dissemination efforts, and the development
+      of open scientific resources. A transparent donation framework will be published as the
+      institute is formally constituted.
     </p>
   </div>
 </section>
 
-<footer>
-  <p>
-    © 2026 IECIT — Institute for Emergent Cosmology & Innovative Technologies.<br>
-    This institute is currently under formation.
-  </p>
-</footer>
+  <section>
+    <div class="grid">
+      <div class="card">
+        <h3>Founder</h3>
+        <p>
+          <strong>Thierry Padie</strong><br/>
+          Independent Researcher — Quantum Gravity / Cosmology<br/>
+          ORCID: <span class="k">0009-0007-5232-9923</span>
+        </p>
+        <p>
+          Contact: <a href="mailto:contact@contact-padie-research.org">contact@contact-padie-research.org</a>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Director</h3>
+        <p>
+          <strong>FE COLE</strong><br/>
+          Director — Institute for Emergent Cosmology & Innovative Technologies<br/>
+          (in formation)
+        </p>
+      </div>
+    </div>
+  </section>
 
+  <footer>
+    <p>
+      © 2026 IECIT — Institute for Emergent Cosmology & Innovative Technologies.
+      This institute is currently under formation.
+    </p>
+  </footer>
 </body>
 </html>
